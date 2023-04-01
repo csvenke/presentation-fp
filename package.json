@@ -1,0 +1,19 @@
+{
+  "name": "presentation-fp",
+  "private": true,
+  "scripts": {
+    "test": "vitest",
+    "start": "ts-node main.ts create 'buy milk'"
+  },
+  "dependencies": {
+    "fp-ts": "2.13.1",
+    "uuid": "9.0.0",
+    "commander": "10.0.0",
+    "openai": "3.2.1"
+  },
+  "devDependencies": {
+    "vitest": "0.29.8",
+    "@types/uuid": "9.0.1",
+    "ts-node": "10.9.1"
+  }
+}
