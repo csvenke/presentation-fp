@@ -1,0 +1,10 @@
+{
+  "name": "todo-api",
+  "private": true,
+  "scripts": {
+    "prestart": "graphql-codegen",
+    "preinstall": "graphql-codegen",
+    "start": "ts-node-dev --no-notify --respawn src/main.ts",
+    "graphql-codegen": "graphql-codegen"
+  }
+}
